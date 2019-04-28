@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'PT sans', sans-serif;
+	box-sizing: border-box;
+}
+
+button:focus{
+	outline: none;
+}
+
+strong {
+	color: orange;
+}
+h1 {
+	margin: 0;
+}
+h2{
+	text-align: center;
+	margin: 0;
+	position: relative;
+	left: 150px;
+	font-size: 12px;
+	 transition: width 2s, height 4s;
+	 
+}
+
+.calculator {
+	width: 15%;
+	margin: auto;
+	margin-top: 50px;
+	background-color: #ccc;
+	border: 1px solid black;
+	border-radius: 5px;
+	height: 275px;
+}
+
+
+.display {
+	background-color: ;
+	width: 100%;
+	overflow: hidden;
+	margin: auto;
+	justify-content: flex-end;
+	display: flex;
+	height: 50px;
+}
+
+.button {
+	background-color: #fff;
+	border: none;
+	font-family: inherit;
+	font-size: 1.7em;
+	text-align: center;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid black;
+}
+
+.button:hover {
+  filter: brightness(60%);
+}
+
+.operator {
+	background-color: orange;
+}
+.buttons-top {
+	display: flex;
+	
+	width: 100%;
+}
+
+.buttons-top button {
+	width: 50%;
+	
+}
+
+#clear {
+	width: 50%;
+	background-color: orange;
+}
+.buttons-digits {
+	width: 100%;
+	display: inline-flex;
+	flex-wrap: wrap;
+	height: 60%;
+}
+
+.buttons-digits button {
+	width: 25%;
+
+	height: 25%;
+	display: inline-block;
+}
+
+#zero {
+	width: 50%;
+}
+
+#dot {
+	width: 25%;
+}
+
+#display-text {
+	font-size: 2.1em;
+	display: flex;
+	align-items: center;
+	margin-right: 5px;
+	}
+
+
+.interface {
+	height: 100%;
+	margin: 0;
+}
+
+
+@media (min-width: 1025px){
+	
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .calculator {
+  	height: 100vh;
+  	width: 100vw;
+  }
+  
+}
